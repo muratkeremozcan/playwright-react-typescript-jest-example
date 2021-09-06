@@ -13,7 +13,7 @@ This is a PoC for [Playwright](https://playwright.dev/docs/why-playwright) vs [C
 
 ## [Setup](#Setup)
 
-After cloning this repo run the following command, in the project directory, to install the project dependencies:
+After cloning this repo install the project dependencies at the project directory:
 
 ```bash
 npm i
@@ -88,3 +88,5 @@ npm run cypress:run
 [Cypress Dashboard](https://dashboard.cypress.io/projects/mwqojo) - uses 3 parallel machines.
 
 [Github Actions](https://github.com/muratkeremozcan/playwright-vs-cypress/actions)
+
+[yml file](.github/workflows/main.yml)
