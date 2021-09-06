@@ -3,9 +3,6 @@
 This is a PoC for [Playwright](https://playwright.dev/docs/why-playwright) vs [Cypress](https://www.cypress.io/) a simple React TS app.
 
 ## Table of contents
-
-- [Playwright vs Cypress](#playwright-vs-cypress)
-  - [Table of contents](#table-of-contents)
   - [Setup](#setup)
   - [Playwright](#playwright)
   - [Cypress](#cypress)
