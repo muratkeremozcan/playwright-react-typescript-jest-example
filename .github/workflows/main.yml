@@ -4,7 +4,7 @@ jobs:
 
   cypress-run:
     strategy:
-      # uses 3 CI machines to run tests in parallel
+      # uses 2 CI machines to run tests in parallel
       matrix:
         machines: [1, 2]
     runs-on: ubuntu-latest
@@ -22,7 +22,7 @@ jobs:
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
 
-  # Playwright doesn't have a convenience to start the local server prior to running the tests
+  # Playwright doesn't have a convenience action to start the local server prior to running the tests
   # therefore we are using https://www.npmjs.com/package/start-server-and-test
   # waits until local server is ready, then starts the tests, afterwards shuts down the server
   playwright-run:
