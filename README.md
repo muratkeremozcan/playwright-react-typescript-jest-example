@@ -4,10 +4,12 @@ This is a PoC for [Playwright](https://playwright.dev/docs/why-playwright) vs [C
 
 ## Table of contents
 
-* [Setup](#Setup)
-* [Playwright](#Playwright)
-* [Cypress](#Cypress)
-* [CI Test Results](#CI_Test_Results)
+- [Playwright vs Cypress](#playwright-vs-cypress)
+  - [Table of contents](#table-of-contents)
+  - [Setup](#setup)
+  - [Playwright](#playwright)
+  - [Cypress](#cypress)
+  - [CI Test results](#ci-test-results)
 
 <br></br>
 
@@ -25,20 +27,15 @@ Start the app
 npm start
 ```
 
-<details><summary>Here is what the application looks like running:</summary>
+<details><summary>Work around the Playwright MacOS permission issue</summary>
 
-<img src="docs/assets/app-running.gif" alt="form application running" width="600">
+<br></br>
 
-A form component with basic validation.
-
-**Note:** we are using [tailwindcss media queries](https://tailwindcss.com/docs/background-color/#responsive) to change the background color of the `<sectiofbackgrounds based on viewport size, something we can declare in our tests with playwright.
-</details>
-
-### [Work around the Playwright MacOS permission issue](https://github.com/puppeteer/puppeteer/issues/4752#issuecomment-524086077)
-
-This will prevent the dialog "*Do you want the application “Chromium.app” to accept incoming network connection?*"
+[This workaround will prevent](https://github.com/puppeteer/puppeteer/issues/4752#issuecomment-524086077) the dialog "*Do you want the application “Chromium.app” to accept incoming network connection?*"
 
 Alternatively you can turn off the firewall.
+
+</details>
 
 <br></br>
 
@@ -51,7 +48,6 @@ In a new tab inside your terminal, run the tests with the following command:
 ```bash
 npm run playwright
 ```
-
 
 There are two ways to view the UI while executing Playwright tests:
 
