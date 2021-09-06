@@ -85,7 +85,7 @@ npm run cypress:run
 
 ## [CI Test results](#CI-Test-results)
 
-[Cypress Dashboard](https://dashboard.cypress.io/projects/mwqojo) - uses 3 parallel machines.
+[Cypress Dashboard](https://dashboard.cypress.io/projects/mwqojo) - uses 2 parallel machines.
 
 [Github Actions](https://github.com/muratkeremozcan/playwright-vs-cypress/actions)
 
