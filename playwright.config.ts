@@ -6,7 +6,7 @@ const config: PlaywrightTestConfig = {
     viewport: { width: 1280, height: 720 },
     ignoreHTTPSErrors: true,
     video: 'on-first-retry',
-    baseURL: 'http://http://localhost:9091'
+    baseURL: 'http://localhost:9091'
   },
 };
 export default config;
