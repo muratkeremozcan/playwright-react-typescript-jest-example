@@ -97,7 +97,7 @@ What matters as of the end of 2022
     - control window events (ex: win.addEventListener)
     - control application code directly (ex: app actions, spy/stub problematic application methods)
 - Developer experience / feedback: cy-time-travel-debug vs pw-watch-mode 
-- syntax: declarative, flow rigth, terse, fp-like VS imperative, left-hand-side-assignments, jest-like
+- syntax: declarative, flow right, terse, fp-like VS imperative, left-hand-side-assignments, jest-like
 - component testing: Cy has full support (4 UI frameworks), in browser vs PW has experimental support, in node (React)
 
 |                                              | Cypress Studio                                               | Playwright                                                   |
