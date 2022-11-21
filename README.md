@@ -100,7 +100,7 @@ What matters as of the end of 2022:
 - syntax: declarative, flow right, terse, fp-like VS imperative, left-hand-side-assignments, jest-like
 - component testing: Cy has full support (4 UI frameworks), in browser vs PW has experimental support, in node (React)
 
-|                                              | Cypress Studio                                               | Playwright                                                   |
+|                                              | Cypress                                                      | Playwright                                                   |
 | -------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | multi-domain, multi-tab scenarios            | experimental                                                 | supported                                                    |
 | WebKit support                               | [on the road map](https://docs.cypress.io/guides/references/roadmap) | supported                                                    |
