@@ -89,7 +89,7 @@ npm run cypress:run
 
 ## [Comparison](#comparison)
 
-What matters as of the end of 2022
+What matters as of the end of 2022:
 
 - Cypress runs in the browser vs PW runs in  Node
   - running in the browser has huge advantages
